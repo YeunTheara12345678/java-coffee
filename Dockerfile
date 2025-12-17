@@ -2,7 +2,7 @@ FROM eclipse-temurin:21-jre-alpine
 
 WORKDIR /app
 
-COPY coffeeshop-telegram-bot-0.0.1-SNAPSHOT.jar app.jar
+COPY coffee-shop-telegram-bot-1-0.0.1-SNAPSHOT.jar app.jar
 
 EXPOSE 8080
 
